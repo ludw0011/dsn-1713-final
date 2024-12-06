@@ -7,6 +7,9 @@
   <title>DSN-Final</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
 </head>
 <body>
@@ -49,8 +52,8 @@
      
      <main>
         <div class="bg-image text-overlay d-flex align-items-center justify-content-center heroimage" style="background-image: url(images/hero-greatwave.webp); width: auto; height: 100vh">
-          <div class="text-center" style="max-width: 600px; margin: auto ">
-            <h1>Your Heading</h1>
+          <div class="text-right position-absolute top-20 start-50" style="max-width: 400px; margin: auto ">
+            <h1 class="animate__animated animate__bounce">Your Heading</h1>
             <p>Discover modern woodblock prints using traditional techniques. All products are painstakingly hand-crafted by artisans. We hope you will find a favorite piece among our collection of works.</p>
             <button type="button" class="btn btn-outline-primary border-3 rounded-5 ">Explore More</button>
           </div>
@@ -59,22 +62,23 @@
 
           
 
-          <section id="projects" class="m-5">
-            <div class="container-lg text-center">
-              <h2>Projects</h2>
+          <section id="projects" class="bg-primary">
+            <div class="container-lg text-center" >
+              <h2 class="pt-5 text-white" 
+              >Projects</h2>
              
-              <div class="row">
+              <div class="row pb-5">
                 <div class="col-12 col-md-4 mt-4">
                     <div class="card border-0 shadow-none">
-                        <img class="card-img-top" src="images/project-1.webp" alt="Card image cap">
+                        <img class="card-img-top homepage-card-image" src="images/project-1.webp" alt="Card image cap">
                         <div class="card-body">
                             <button type="button" class="btn btn-outline-primary border-3 rounded-5">Past Projects</button>
                         </div>
-                        </div>
+                      </div>
                 </div>
                 <div class="col-12 col-md-4 mt-4">
                     <div class="card border-0 shadow-none">
-                        <img class="card-img-top" src="images/project-2.webp" alt="Card image cap">
+                        <img class="card-img-top homepage-card-image" src="images/project-2.webp" alt="Card image cap">
                         <div class="card-body">
                           <button type="button" class="btn btn-outline-primary border-3 rounded-5 ">Current Projects</button>
                         </div>
@@ -82,7 +86,7 @@
                 </div>
                 <div class="col-12 col-md-4 mt-4">
                     <div class="card border-0 shadow-none">
-                        <img class="card-img-top" src="images/project-3.webp" alt="Card image cap">
+                        <img class="card-img-top homepage-card-image" src="images/project-3.webp" alt="Card image cap">
                         <div class="card-body">
                           <button type="button" class="btn btn-outline-primary border-3 rounded-5 ">Future Projects</button>
                         </div>
@@ -93,8 +97,8 @@
           </section>
 
           <section id="meet-the-team">
-            <div class="container-lg text-center">
-              <h2>Meet the Team</h2>
+            <div class="container-lg text-center" style="width: auto; height: 100vh">
+              <h2 class="mt-5">Meet the Team</h2>
              
               <div class="row">
                 <div class="col-12 col-lg-4 mt-4">
@@ -138,14 +142,14 @@
                 <div class="p-3">
                   <a href="/">
                     <img src="../images/header-logo.webp" alt="Logo" width="60" height="auto">
-                  </a>
-                  <span>&copy;Mokuhankan Japanese Fine Prints</span>
+                  </a> 
+                  <span>&copy; Mokuhankan Japanese Fine Prints</span>
                 </div>
             
-                <ul class="d-flex flex-row mb-0">
-                  <li class="p-3"><a href="#"><img src="images/logo1-twitch.webp" alt="Instagram logo" width="35" height="auto"></a></li>
-                  <li class="p-3"><a href="#"><img src="images/logo-2.png" alt="Instagram logo" width="35" height="auto"></a></li>
-                  <li class="p-3"><a href="#"><img src="images/logo3-fb.webp" alt="Facebook logo" width="35" height="auto"></a></li>
+                <ul class="d-flex flex-row mb-0 align-items-center">
+                  <li class="p-3"><a href="#"><img src="images/twitch-brands-solid.svg" alt="Instagram logo" width="35" height="auto"></a></li>
+                  <li class="p-3"><a href="#"><img src="images/instagram-brands-solid.svg" alt="Instagram logo" width="35" height="auto"></a></li>
+                  <li class="p-3"><a href="#"><img src="images/facebook-brands-solid.svg" alt="Facebook logo" width="35" height="auto"></a></li>
                 </ul>
               </div>    
             </div>
