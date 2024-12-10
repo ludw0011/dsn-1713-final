@@ -11865,7 +11865,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .homepage-card-image {
@@ -11880,6 +11880,70 @@ a {
 
 ul {
   list-style: none;
+}
+
+.custom-card {
+  width: 75%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  outline: #244265;
+  background: white;
+}
+
+.button-home {
+  position: absolute;
+  outline: #244265;
+  background: white;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 16px;
+  scroll-behavior: smooth;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.card-gallery {
+  width: 18rem;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=custom.css.map */
