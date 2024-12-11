@@ -11856,7 +11856,7 @@ textarea.form-control-lg {
 .heroimage {
   background-position: 100% 2%;
   background-repeat: no-repeat;
-  background-size: 130%;
+  background-size: cover;
 }
 
 h1, .h1 {
@@ -11865,7 +11865,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+h6, .h6 {
+  font-family: "Roboto Serif";
 }
 
 .homepage-card-image {
@@ -11880,6 +11884,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+.projects {
+  padding-top: 100px;
 }
 
 .custom-card {
@@ -11944,6 +11952,31 @@ ul {
 .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+}
+
+.shop-card {
+  aspect-ratio: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop-card-img-top {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.shop-card-body {
+  text-align: center;
+}
+
+.row {
+  row-gap: 2rem;
+}
+
+.col {
+  padding: rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
